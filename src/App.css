@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+}
 #root{
   background-color: black;
-  height: 100vh;
+box-sizing: border-box;
+}
+h1, h2, h3, p{
+  color: #c5a7ac;
+}
+h4{
+  color: white;
 }
