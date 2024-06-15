@@ -9,6 +9,17 @@ export default {
       colors: {
         'cream': '#c5a7ac',
       },
+      width:{
+        23: '22%',
+        22: '23%',
+        35: '35%',
+      },
+      height:{
+        90: '24rem',
+        100: '30rem',
+        1: '1px',
+      }
+
     },
   },
   plugins: [],

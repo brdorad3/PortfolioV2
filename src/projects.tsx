@@ -4,11 +4,11 @@ const Projects = () => {
 
     return(
     <div className="px-24 ">
-        <section className="flex gap-20 py-24 border-b-2 border-gray-700  hover:border-cream hover:border-b-2">
+        <section className="flex gap-20 py-24 pr-52 border-b-2 border-gray-700  hover:border-cream hover:border-b-2">
         <img src="./homepage.png" alt="" className="w-1/2 rounded-xl"/>
         <div className="flex flex-col gap-8 ">
         <h1 className="text-3xl font-black text-white">Messaging App</h1>
-        <p>Full stack app inspired by WhatsApp. Built with React js, Express, Node.js and MongoDB. This app offers features such as adding contacts, communication and editing your profile.</p>
+        <p className="font2">Full stack app inspired by WhatsApp. Built with React js, Express, Node.js and MongoDB. The app allows users to register, log in, and interact through messages.</p>
         </div>
         </section>
         <section className="flex gap-20 py-24 border-b-2 border-gray-700  hover:border-cream hover:border-b-2">
