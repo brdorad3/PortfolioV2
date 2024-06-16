@@ -7,7 +7,7 @@ const Stack = () => {
             <div className="flex items-center gap-5">
             
             <h1 className="text-white text-2xl font-black font">Stack</h1>
-            <div className="w-2/3 h-1 bg-white"></div>
+            <div className="w-2/3 h-1 bg-white sh"></div>
             
             
             </div>
