@@ -25,6 +25,31 @@ h4{
 .sh{
   box-shadow: 1px 2px 5px white;
 }
+
+.ani{
+  position: absolute;
+  animation: dd 3s linear 1s infinite normal;
+}
+.ani2{
+  position: absolute;
+  animation: de 3s linear 1s infinite normal;
+}
+.s{top: 75%;}
+@keyframes dd{
+  0%   {color:white;  top:80%;}
+  25%  {color:white; top:83%;}
+  50%  {color:rgb(199, 197, 197);  top:85%;}
+  75%  {color:gray;  top:87%;}
+  100% {color:black;  top:90%;}
+}
+@keyframes de{
+  0%   {color:white;  top:78%;}
+  25%  {color:white; top:81%;}
+  50%  {color:rgb(107, 104, 104);  top:84%;}
+  75%  {color:gray;  top:87%;}
+  100% {color:black;  top:90%;}
+}
+
 #root{
   min-width: calc(100vw-15px);
   min-width: calc(100vw-15px);

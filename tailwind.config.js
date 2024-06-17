@@ -20,7 +20,12 @@ export default {
         90: '24rem',
         100: '30rem',
         1: '1px',
-      }
+      },
+      padding:{
+        'cus': '10px',
+        'five': "5px"
+        
+      },
 
     },
   },
