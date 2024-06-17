@@ -3,7 +3,7 @@
 const Stack = () => {
 
     return(
-        <div className="flex flex-col h-100 pt-20 px-24 gap-10">
+        <div className="flex flex-col h-100  px-24 gap-10">
             <div className="flex items-center gap-5">
             
             <h1 className="text-white text-2xl font-black font">Stack</h1>
