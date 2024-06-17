@@ -7,7 +7,9 @@ import Stack from './stack'
 import Home from './home'
 
 function App() {
-  
+  //612x344 boss
+  //696x343
+  //556x313
 
   return (
     <>
