@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    letterSpacing: {
+      widest: '.3em',
+    },
     extend: {
       colors: {
         'cream': '#c5a7ac',
@@ -13,7 +16,7 @@ export default {
         23: '22%',
         22: '23%',
         35: '35%',
-        65: '66.64%',
+        65: '66.2%',
         45: '45%',
         612: '635px'
 
@@ -30,6 +33,7 @@ export default {
         'five': "5px"
         
       },
+      
 
     },
   },

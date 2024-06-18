@@ -1,7 +1,7 @@
 
 
 const Navbar = () => {
-    return(<div className="flex w-full bg-black justify-between px-24 py-5 border-b-2 border-cream fixed max-sm:px-5 ">   
+    return(<div className="flex w-full bg-black justify-between px-24 py-5 border-b-2 border-cream fixed max-sm:px-5 z-10 ">   
 
         <h1 className="text-white text-md">Brdorad3</h1>
         <section className="flex gap-5">

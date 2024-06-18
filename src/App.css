@@ -56,3 +56,13 @@ h4{
   min-width: calc(100vw-15px);
   overflow: hidden;
 }
+.bebas{
+  font-family: "Bebas Neue", sans-serif;
+
+}
+.font3{
+  font-family: "Dosis", sans-serif;
+}
+.chakra{
+  font-family: "Chakra Petch", sans-serif;
+}
