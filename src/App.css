@@ -8,6 +8,7 @@
 #root{
   background-color: black;
 box-sizing: border-box;
+
 }
 h1, h2, h3, p{
   color: #c5a7ac;
@@ -40,14 +41,14 @@ h4{
   25%  {color:white; top:83%;}
   50%  {color:rgb(199, 197, 197);  top:85%;}
   75%  {color:gray;  top:87%;}
-  100% {color:black;  top:90%;}
+  100% {color:black;  top:91%;}
 }
 @keyframes de{
-  0%   {color:white;  top:78%;}
-  25%  {color:white; top:81%;}
-  50%  {color:rgb(107, 104, 104);  top:84%;}
+  0%   {color:black;  top:78%;}
+  25%  {color:black; top:81%;}
+  50%  {color:rgb(139, 137, 137);  top:83%;}
   75%  {color:gray;  top:87%;}
-  100% {color:black;  top:90%;}
+  100% {color:black;  top:91%;}
 }
 
 #root{

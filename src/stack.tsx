@@ -3,7 +3,7 @@
 const Stack = () => {
 
     return(
-        <div className="flex flex-col h-100  px-24 gap-10">
+        <div className="flex flex-col h-full  px-24 gap-10 max-md:px-2">
             <div className="flex items-center gap-5">
             
             <h1 className="text-white text-2xl font-black font">Stack</h1>
@@ -12,11 +12,11 @@ const Stack = () => {
             
             </div>
             
-            <div className="flex w-full justify-between h-full">
+            <div className="flex w-full justify-between h-full max-md:flex-col max-md:gap-10">
                 
-                <div className="flex flex-col items-center w-1/3 gap-3">
+                <div className="flex flex-col items-center w-1/3 gap-3 max-md:w-full">
                     <h4 className="font text-2xl">Frontend</h4>
-        <section className="w-2/3 h-full  bg-black border-4 border-cream rounded-md grid grid-rows-3 grid-cols-3 items-center justify-center">
+        <section className="w-2/3 h-96  bg-black border-4 border-cream rounded-md grid grid-rows-3 grid-cols-3 items-center justify-center">
         <div className="flex flex-col items-center">
             <img src="public/html5-02-svgrepo-com (2).svg" alt="" className="w-35"  />
             <h4 className="font2">HTML</h4>
@@ -47,9 +47,9 @@ const Stack = () => {
         </section >
         </div>
 
-        <div className="flex flex-col items-center w-1/3 gap-3">
+        <div className="flex flex-col items-center w-1/3 gap-3 max-md:w-full">
             <h4 className="font text-2xl">Backend</h4>
-        <section className="w-2/3 h-full bg-black border-4 border-cream rounded-md grid grid-rows-3 grid-cols-3 items-center justify-center">
+        <section className="w-2/3 h-96 bg-black border-4 border-cream rounded-md grid grid-rows-3 grid-cols-3 items-center justify-center">
         <div className="flex flex-col items-center">
             <img src="public/node-fill-svgrepo-com.svg" alt="" className="w-1/3"  />
             <h4 className="font2">NodeJs</h4>
@@ -87,9 +87,9 @@ const Stack = () => {
         </div>
         </section >
         </div>
-        <div className="flex flex-col items-center w-1/3 gap-3">
+        <div className="flex flex-col items-center w-1/3 gap-3 max-md:w-full">
             <h4 className="font text-2xl">Other</h4>
-        <section className="w-2/3 h-full bg-black border-4 border-cream rounded-md grid grid-rows-2 grid-cols-2 items-center justify-center">
+        <section className="w-2/3 h-96 bg-black border-4 border-cream rounded-md grid grid-rows-2 grid-cols-2 items-center justify-center">
         <div className="flex flex-col items-center">
             <img src="public/git-svgrepo-com (1).svg" alt="" className="w-1/4"  />
             <h4 className="font2">Git</h4>
