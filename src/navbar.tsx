@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 
 
 const Navbar = () => {
@@ -7,11 +8,14 @@ const Navbar = () => {
         <div className=" w-1/2 h-[1px] bg-white"></div>
         </div>
         <section className="flex gap-5">
-        <h2 className="text-white">Stack</h2>
+            
+        
+        <HashLink smooth to='#stack' > <h2 className="text-white">Stack</h2> </HashLink>
         <h3>|</h3>
-        <h2 className="text-white">Projects</h2>
+        <HashLink smooth to='#projects' > <h2 className="text-white">Projects</h2> </HashLink>
         <h3>|</h3>
-        <h2 className="text-white">Contact</h2>
+        <HashLink smooth to='#contact' > <h2 className="text-white">Contact</h2> </HashLink>
+        
         </section>
 
 

@@ -74,6 +74,25 @@ h4{
   color: black;
   font-weight: 900;
 }
+.test:hover{
+  background-position: 0 -100%;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-size: larger;
+}
+.test{
+  
+    
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, black 50%, white 50%);
+    -webkit-transition: background-position 1s;
+    -moz-transition: background-position 1s;
+    transition: background-position 0.8s, color 0.8s, letter-spacing 0.8s, font-size 0.8s;
+    
+
+}
+
 
 @media  screen and (max-width:460px) {
   .btn:hover{
