@@ -9,11 +9,11 @@ const Home = () => {
             <div className="flex gap-5 mt-5">
                 <button className="w-20 flex border-2 border-black pl-1 gap-1 py-five bg-white items-center rounded-lg outline outline-1 outline-white">
                     <img src="./githubblack.svg" className="w-6" alt="" />
-                    <p className="text-black font2">Github</p>
+                    <a href="https://github.com/brdorad3" className="text-black font2">Github</a>
                 </button>
                 <button className="w-20 flex border-2 border-black px-cus py-five bg-white items-center rounded-lg outline outline-1 outline-white">
                     <img src="./email-svgrepo-com.svg" className="w-6" alt="" />
-                    <p className="text-black font2">Email</p>
+                    <a href="mailto:avunic11@gmail.com" className="text-black font2">Email</a>
                 </button>
             </div>
 
