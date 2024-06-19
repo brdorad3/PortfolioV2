@@ -74,3 +74,13 @@ h4{
   color: black;
   font-weight: 900;
 }
+
+@media  screen and (max-width:460px) {
+  .btn:hover{
+    letter-spacing: 0.15rem;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    
+  }
+}

@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     letterSpacing: {
+      wide: '.1em',
       widest: '.3em',
     },
     extend: {
