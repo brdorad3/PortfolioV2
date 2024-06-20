@@ -10,11 +10,11 @@ const Navbar = () => {
         <section className="flex gap-5">
             
         
-        <HashLink smooth to='#stack' > <h2 className="text-white">Stack</h2> </HashLink>
-        <h3>|</h3>
-        <HashLink smooth to='#projects' > <h2 className="text-white">Projects</h2> </HashLink>
-        <h3>|</h3>
-        <HashLink smooth to='#contact' > <h2 className="text-white">Contact</h2> </HashLink>
+        <HashLink smooth to='#stack' > <h2 className="text-white text-base">Stack</h2> </HashLink>
+        <h3 className='text-white cursor-pointer '>|</h3>
+        <HashLink smooth to='#projects' > <h2 className="text-white  text-base">Projects</h2> </HashLink>
+        <h3 className='text-white  cursor-pointer'>|</h3>
+        <HashLink smooth to='#contact' > <h2 className="text-white text-base">Contact</h2> </HashLink>
         
         </section>
 

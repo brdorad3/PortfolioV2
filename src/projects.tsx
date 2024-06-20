@@ -3,7 +3,8 @@
 const Projects = () => {
 
     return(
-    <div className="px-24 my-24 max-lg:px-4" id="projects">
+    <div className="px-24 my-24 max-lg:px-4" id="projectsd">
+        <div className="bg-black w-1 h-20" id="projects"></div>
         <div className="flex items-center gap-3 pb-10">
         <h1 className="text-white text-2xl font font-black">Projects</h1>
         <div className="w-65 h-1 bg-white sh"></div>
