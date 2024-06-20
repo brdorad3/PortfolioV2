@@ -8,8 +8,6 @@ const Stack = () => {
             
             <h1 className="text-white text-2xl font-black font">Stack</h1>
             <div className="w-2/3 h-1 bg-white sh"></div>
-            
-            
             </div>
             
             <div className="flex w-full justify-between h-full max-lg:flex-col max-lg:gap-10">
