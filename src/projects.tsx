@@ -54,7 +54,7 @@ const Projects = () => {
         </div>
         <div className="flex flex-col gap-8 w-1/3 justify-center max-lg:row-start-1 max-lg:w-4/5">
         <h1 className="text-3xl font-black text-white text-center font3">Where's Waldo?</h1>
-        <p className="text-center text-gray-300 text-lg chakra"> Interactive web application with a goal of finding hidden characters. Built with React js, Express, Node.js and MongoDB. This app offers features such as adding contacts, communication and editing your profile.</p>
+        <p className="text-center text-gray-300 text-lg chakra"> Interactive web application with a goal of finding hidden characters within a complex, detailed image. Built with React js, Express, Node.js and MongoDB.</p>
         <div className="flex justify-evenly">
             <a href="https://where-is-waldo-gfa1l20u8-brdorads-projects.vercel.app" className="flex justify-center items-center text-white border-2 border-white transition-all ease-out duration-500 btn w-48 h-14 max-lg:w-40 font3 rounded-md max-[460px]:w-28">
                 Live preview
