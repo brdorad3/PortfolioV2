@@ -19,7 +19,7 @@ const Projects = () => {
         <p className="flex text-center chakra text-lg text-gray-300">Full stack app inspired by WhatsApp. Built with React js, Express, Node.js and MongoDB. The app allows users to register, log in, and interact through messages.</p>
         <div className="flex justify-evenly">
             
-            <a href="https://messaging-jj3zhaxic-brdorads-projects.vercel.app" className="flex justify-center items-center text-white border-2 border-white transition-all ease-out duration-500 btn w-48 h-14 max-lg:w-40 rounded-md font3 max-[460px]:w-28">
+            <a href="https://messaging-c14r9vqg2-brdorads-projects.vercel.app/" className="flex justify-center items-center text-white border-2 border-white transition-all ease-out duration-500 btn w-48 h-14 max-lg:w-40 rounded-md font3 max-[460px]:w-28">
                 Live preview
             </a>
             
@@ -36,7 +36,7 @@ const Projects = () => {
         <h1 className="text-3xl font-black text-white text-center font3">Blog - CRUD Application</h1>
         <p className="text-center text-gray-300 text-lg chakra">MERN application allowing users to write and comment published posts. User authentication is handled via a simple username and password strategy using passportjs.</p>
         <div className="flex justify-evenly">
-            <a href="https://blog-chi-snowy-38.vercel.app" className="flex justify-center items-center text-white border-2 border-white transition-all ease-out duration-500 btn w-48 h-14 max-lg:w-40 rounded-md font3 max-[460px]:w-28 ">
+            <a href="https://blog-7tydo1uhw-brdorads-projects.vercel.app/" className="flex justify-center items-center text-white border-2 border-white transition-all ease-out duration-500 btn w-48 h-14 max-lg:w-40 rounded-md font3 max-[460px]:w-28 ">
                 Live preview
             </a>
             <a href="https://github.com/brdorad3/Blog" className="flex justify-center items-center text-white border-2 border-white  w-48 h-14 max-lg:w-40 transition-all ease-out duration-500 btn rounded-md font2 max-[460px]:w-28">
